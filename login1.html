@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JIIT Alumni</title>
+  <!--Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!--Google Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Grand%20Hotel...
+" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Peddana...
+" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--Font Awesoome -->
+  <!--Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!--Favicon-->
+<link rel="icon" href="favicon.ico">
+<!--GoogleAuthentication-->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<style>
+{
+margin : 0;
+padding: 0;
+font-family: 'Ubuntu', serif;
+font-size: 23px;
+}
+body{
+background-color: white;
+background : repeating-linear-gradient(#7BABBE,#3B3D9A,  #1898);
+height: 1000px;
+}
+.navbar{
+display: flex;
+flex-direction: row;
+/* border: 2px solid black; */
+box-shadow: 1px 1px 8px black;
+margin-bottom: 50px;
+padding: 5px 5px;
+background :linear-gradient(180deg, #415F82,#415F82 );
+}
+#logo{
+margin: auto;
+margin-left: 20px;
+}
+#logo img{
+background: transparent;
+height: 40px;
+width: 40px;
+border-radius: 12px;
+}
+.navbar ul{
+display: flex;
+flex-direction: row;
+margin: auto;
+margin-left: 700px;
+}
+.navbar ul li{
+list-style: none;
+padding: 5%;
+}
+.navbar ul li a{
+text-decoration: none;
+font-weight: bold;
+color: #ffffff;
+font-size: 33px;
+}
+.container{
+display: flex;
+flex-direction: row;
+margin: auto;
+border-radius: 2px;
+box-shadow: 2px 2px 16px black;
+background: repeating-linear-gradient(#415F82,#7BABBE,#18989e);
+height: 500px;
+width: 1000px;
+}
+#icon{
+margin-top: 35px;
+margin-left: 210px;
+}
+#icon img{
+height: 90px;
+width: 90px;
+border-radius: 23px;
+}
+.intro{
+width: 50%;
+}
+.intro .heading{
+margin: 10px 40px;
+text-align: center;
+margin-bottom: 10px;
+}
+#btn{
+margin: auto;
+margin-left: 200px;
+}
+#btn button{
+border: none;
+width: 30%;
+box-shadow: 1px 1px 5px;
+border-radius: 5px;
+padding: 5px 16px;
+}
+.heading p{
+padding: 15px 30px;
+}
+.head{
+margin-top: 70px;
+}
+.heading h1 {
+padding: 10px;
+font-size: 40px;
+font-family: 'Ubuntu', cursive;
+}
+.heading h3{
+padding: 5px;
+}
+.signup{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+.signup h1{
+text-align: center;
+font-size: 33px;
+}
+.signup .input{
+margin: 6px 100px;
+padding: 5px 10px;
+width: 60%;
+height: 30px;
+border-radius: 5px;
+border: none;
+box-shadow: 1px 1px 5px;
+}
+#niru{
+margin: auto;
+margin-top: 10px;
+padding: 5px 12px;
+width: 25%;
+border-radius: 5px;
+border: none;
+box-shadow: 1px 1px 5px;
+}
+.check{
+display: flex;
+flex-direction: row;
+margin: auto;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+.nam{
+  padding-right: 30%;
+}
+#checkbox{
+margin-top: 8px;
+margin-right: 10px;
+border: none;
+box-shadow: 1px 1px 1px;
+}
+</style>
+</head>
+<body>
+<div class="conatiner-fluid">
+  <nav class="navbar  navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href=""><img class="logo-img" src="images/jiitlog.png" alt="logo">JIIT ALMA CONNECT</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <ul class="navbar-nav ml-auto">
+     <li class="nav-item">
+         <a class="nav-link" href="index.html">Home</a>
+     </li>
+     <li class="nav-item">
+         <a class="nav-link" href="https://zorsebolotanshiyolo.github.io/Contact-us-page/">Contact Us</a>
+     </li>
+     <li class="nav-item">
+         <a class="nav-link" href="file:///C:/Users/Dell/Desktop/Web%20Development/bootstrap-4.5.2-examples/checkout/paymentportal.html">Payment Portal</a>
+     </li>
+ </ul>
+</div>
+</nav>
+<section class="container">
+<div class="intro">
+<div id="icon">
+<img src="images/jiitlog.png" alt="JIIT LOGO">
+</div>
+<div class="heading">
+<h1>JIIT Alma Connect</h1>
+<hr>
+<h3>Connect with us</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur non facere possimus in excepturi! </p>
+<hr>
+</div>
+<div id="btn">
+<button >Log in </button>
+</div>
+</div>
+<div class="signup">
+<div class="head">
+<h1 >Don't have an account?</h1>
+<h1 >Sign Up!</h1>
+</div>
+<input class="input" type="text" placeholder="Username">
+<input class="input" type="email" name="" id="" placeholder="Email">
+<input class="input" type="password" name="" id="" placeholder="Password">
+<div class="check">
+<input type="checkbox" name="" id="checkbox" placeholder="">
+Terms and Conditions applied
+</div>
+<button id="niru">Sign Up</button>
+</div>
+</section>
+</body>
+</html>
